@@ -1,0 +1,40 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #ffffff;
+    height: 680px;
+    width: 870px;
+}
+h2{
+    margin-left: 10px;
+    color: violet;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px;
+    margin-left: 10px;
+    
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 10px;
+}
